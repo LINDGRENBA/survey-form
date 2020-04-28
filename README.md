@@ -6,7 +6,7 @@
 
 ## Description
 
-The purpose of this project is to use javascript, jQuery, forms and a variety of form input types to build a survey and collect data from the user. This project is also a practice in proper organization of javascript into business logic and user interface logic.
+The purpose of this project is to use javascript, jQuery, forms and a variety of form input types to build a survey and collect data from the user. This survey will then display the summary of the collected information once the form is submitted.
 
 ## Setup/Installation Requirements
 
@@ -17,7 +17,7 @@ The purpose of this project is to use javascript, jQuery, forms and a variety of
 
 ## Known Bugs
 
-There are no known bugs at this time. 
+There are no known bugs at this time, however, the javascript portion of the project has not yet been completed.
 
 ## Support and contact details
 
