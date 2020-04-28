@@ -17,7 +17,7 @@ The purpose of this project is to use javascript, jQuery, forms and a variety of
 
 ## Known Bugs
 
-There are no known bugs at this time, however, the javascript portion of the project has not yet been completed.
+Date of birth appears in year-month-day form. Anticipate updating to reflect month-day-year form. Also, Javascript portion of the project has not yet been completed.
 
 ## Support and contact details
 
