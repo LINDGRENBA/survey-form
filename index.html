@@ -11,17 +11,20 @@
 </head>
 <body>
 
-  <!-- their favorite foods, their favorite music, and any other information you feel like. Include all form input types we've covered so far (except checkboxes; we'll learn more about those next week!) -->
-
   <div class="container">
     <h1>Welcome to Our Weekly Survey</h1>
     <p>Thank you for your participation! Fill out the form below and then click the submit button.</p>
 
-    <form action="" id="survey">
+    <form /*action=""*/ id="survey">
 
       <div class="form-group">
         <label for="name">Your full name:</label>
         <input type="text" id="name" class="form-control" placeholder="ex: Joe-Bob Miller">
+      </div>
+
+      <div class="form-group">
+        <label for="born">Your date of birth</label>
+        <input type="date" name="born" id="born" class="form-control">
       </div>
 
       <div class="form-group">
@@ -43,9 +46,57 @@
         </select>
       </div>
 
+      <div class="form-group">
+        <h5>What type of music do you find most relaxing?</h5>
+        <div class="radio">
+          <label for="smooth-jazz">
+            <input type="radio" name="music" id="smooth-jazz" value="smooth-jazz" checked>
+            Smooth Jazz
+        </label>
+        </div>
+        <div class="radio">
+          <label for="ska">
+            <input type="radio" name="music" id="ska" value="ska">
+            Ska
+          </label>
+        </div>
+        <div class="radio">
+          <label for="heavy-metal">
+            <input type="radio" name="music" id="heavy-metal" value="heavy-metal">
+            Heavy Metal
+          </label>
+        </div>
+        <div class="radio">
+          <label for="techno">
+            <input type="radio" name="music" id="techno" value="techno">
+            Techno
+          </label>
+        </div>
+      </div>
+      <br>
+      <div class="form-group">
+        <h4>Synesthesia</h4>
+        <p>People with synesthesia often see numbers as having a color associated with them. For example, the number 3 may be the color yellow, or blue.</p>
+        <label for="color3">What color do you associate with the number 3?</label>
+        <input type="color" name="color3" id="color3">
+        <p>For more information, you can <a href="https://www.psychologytoday.com/us/basics/synesthesia" target="_blank">read about synesthesia</a> on Psychology Today. You can also check out this fun <a href="https://tapas.io/episode/1731313" target="_blank">comic about synesthesia</a> written by Sarah Andersen.</p>
+      </div>
+
       <button class="btn" type="submit">Submit Survey</button>
 
     </form>
+
+    <div class="answers">
+      <h2>Your Answers:</h2>
+      <ul>
+        <li class="name"></li>
+        <li class="date-of-birth"></li>
+        <li class="favorite-meal"></li>
+        <li class="favorite-snack"></li>
+        <li class="relaxing-music"></li>
+        <li class="color-of-three"></li>
+      </ul>
+    </div>
 
 
   </div>
